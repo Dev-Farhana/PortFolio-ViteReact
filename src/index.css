@@ -1,39 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
 @tailwind base;
 @tailwind components ;
 @tailwind utilities ;
 
-
-@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
-.artifika-regular {
-    font-family: "Artifika", serif;
-    font-weight: 400;
-    font-style: normal;
+@layer base {
+    body {
+        @apply font-[Artifika];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
 }
-.rampart-one-regular {
+.title{
     font-family: "Rampart One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-.carter-one-regular {
+.head{
     font-family: "Carter One", system-ui;
     font-weight: 400;
     font-style: normal;
 }
-    
-@layer base{
-    body{
-        @apply font-[Artifika];
-        /* @apply font-[Rampart]; */
-        /* @apply font-[Carter]; */
-    }
-    li{
-        @apply px-4;
-        cursor: pointer;
-    }
+   
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
 }
-  
-.hidden{
 
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)   
+    )!important;
 }
