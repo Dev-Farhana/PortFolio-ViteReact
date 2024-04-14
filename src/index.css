@@ -40,3 +40,8 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+.writeLogo{
+    font-style: oblique;
+    font-family: "Carter One", system-ui;
+    font-size: 2rem;
+}
