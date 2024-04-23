@@ -1,27 +1,39 @@
-import ExpenseApp from '../assets/projects/ExpenseApp[Mern].png';
+import FakeStore from "../assets/projects/FakeStore.png";
+import SimpleUI from "../assets/projects/webpage.png";
+import MyTube from "../assets/projects/Mytube.png";
+import TextSpeechConvertor from "../assets/projects/TextSpeechConvertor.png";
 
 
 const data = [
   {
     id: 1,
-    name: "ExpenseApp[MERN]",
-    image: ExpenseApp,
-    github: "https://github.com/Dev-Farhana/ExpenseApp-MERN.git",
-    live: "https://expense-app-mern-front-duas-projects.vercel.app",
+    name: "Project1",
+    image: SimpleUI,
+    github: "https://github.com/Dev-Farhana/Project-1.git",
+    live: "https://dev-farhana.github.io/Project-1",
   },
+
   {
     id: 2,
-    name: "Ecom Web Clone",
-    image: ExpenseApp,
-    github: "https://github.com/Dev-Farhana/Ecom-ViteReact.git",
-    live: "https://github.com/Dev-Farhana/Ecom-ViteReact.git",
+    name: "FakeStore UI",
+    image: FakeStore,
+    github:
+      "https://github.com/Dev-Farhana/React-Redux-Building-a-FakeStore.git",
+    live: "https://clone-shop-17409b.netlify.app",
   },
   {
     id: 3,
-    name: "Simple Webpage Clone",
-    image: ExpenseApp,
-    github: "https://github.com/Dev-Farhana/Project-1.git",
-    live: "https://dev-farhana.github.io/Project-1",
+    name: "MyTube",
+    image: MyTube,
+    github: "https://github.com/Dev-Farhana/MyTube-clone.git",
+    live: "https://mytube-video8e6e.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "TextConvertor",
+    image: TextSpeechConvertor,
+    github: "https://github.com/Dev-Farhana/text-convertor.git",
+    live: "https://dev-farhana.github.io/text-convertor",
   },
 ];
 

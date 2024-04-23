@@ -7,6 +7,10 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
+import Git from '../assets/Git.png';
+import Express from '../assets/express.png';
+import AntD from '../assets/AntD.png';
+
 
 function Skills() {
   return (
@@ -51,6 +55,20 @@ function Skills() {
                     <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
                     <p className='my-4'data-aos="fade-up-left" > MongoDB </p>
                 </div>
+                
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300' >
+                    <img className='w-20 mx-auto' src={Express} alt="HTML icon" />
+                    <p className='my-4'data-aos="fade-up-left" > ExpressJS  </p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300' >
+                    <img className='w-20 mx-auto' src={Git} alt="HTML icon" />
+                    <p className='my-4'data-aos="fade-up-left" > Git </p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300' >
+                    <img className='w-20 mx-auto' src={AntD} alt="HTML icon" />
+                    <p className='my-4'data-aos="fade-up-left" > AntD </p>
+                </div>
+
             </div>
         </div>
     </div>
