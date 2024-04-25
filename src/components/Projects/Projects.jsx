@@ -41,7 +41,7 @@ const Projects = () => {
           </header>
           {/* card section */}
           <section>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-">
+            <div className="grid grid-cols-1 sm:grid-cols-2 ">
               {/* card */}
               {ProjectsData.map(({ id, name, image, link , sourceCode }) => {
               return (

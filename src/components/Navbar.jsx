@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {  FaBars,  FaTimes,  FaGithub,FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 
@@ -11,7 +10,7 @@ function Navbar() {
 
 
     return (
-      <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+      <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10">
         <div className="writeLogo">
           <h2>
             Dev - <span> Farhana </span>
@@ -106,17 +105,9 @@ function Navbar() {
             <li className="w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-700">
               <a
                 className="flex justify-between items-center w-full text-slate-200"
-                href="/"
+                href="mailto:jr.devfarhana@gmail.com"
               >
                 Email <HiOutlineMail size={30} />
-              </a>
-            </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-zinc-600">
-              <a
-                className="flex justify-between items-center w-full text-slate-200"
-                href="/"
-              >
-                Resume <BsFillPersonLinesFill size={30} />
               </a>
             </li>
           </ul>

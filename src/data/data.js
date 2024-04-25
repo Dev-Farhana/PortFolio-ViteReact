@@ -1,5 +1,5 @@
 import FakeStore from "../assets/projects/FakeStore.png";
-import SimpleUI from "../assets/projects/webpage.png";
+import Pokemon from "../assets/projects/pokemon.png";
 import MyTube from "../assets/projects/Mytube.png";
 import TextSpeechConvertor from "../assets/projects/TextSpeechConvertor.png";
 
@@ -7,10 +7,10 @@ import TextSpeechConvertor from "../assets/projects/TextSpeechConvertor.png";
 const data = [
   {
     id: 1,
-    name: "Project1",
-    image: SimpleUI,
-    github: "https://github.com/Dev-Farhana/Project-1.git",
-    live: "https://dev-farhana.github.io/Project-1",
+    name: "Pokemon WebPage",
+    image: Pokemon,
+    github: "https://github.com/Dev-Farhana/PokemonWeb.git",
+    live: "https://dev-farhana.github.io/PokemonWeb",
   },
 
   {

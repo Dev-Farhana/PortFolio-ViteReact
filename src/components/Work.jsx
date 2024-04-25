@@ -21,7 +21,7 @@ function Work() {
         </div>
         {/* my projects here */}
         <div
-          className="flex justify-center align-items-center gap-3"
+          className="flex justify-center align-items-center gap-3 "
           data-aos="flip-up"
         >
           {project.map((item, index) => {
