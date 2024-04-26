@@ -1,6 +1,6 @@
 import FakeStore from "../assets/projects/FakeStore.png";
 import Pokemon from "../assets/projects/pokemon.png";
-import MyTube from "../assets/projects/Mytube.png";
+import Planet from "../assets/projects/planet.png";
 import TextSpeechConvertor from "../assets/projects/TextSpeechConvertor.png";
 
 
@@ -23,10 +23,10 @@ const data = [
   },
   {
     id: 3,
-    name: "MyTube",
-    image: MyTube,
-    github: "https://github.com/Dev-Farhana/MyTube-clone.git",
-    live: "https://mytube-video8e6e.netlify.app/",
+    name: "Planets WebPage",
+    image: Planet,
+    github: "https://github.com/Dev-Farhana/planetsWeb.git",
+    live: "https://planet-webpage.netlify.app",
   },
   {
     id: 4,
